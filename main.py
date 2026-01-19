@@ -1,3 +1,5 @@
+# 数独游戏主程序
+
 # 导入所需模块
 # 导入rich模块，用于美化输出
 from rich import print as print

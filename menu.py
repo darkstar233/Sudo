@@ -1,4 +1,4 @@
-# 数独菜单
+# 数独菜单模块
 
 # 导入所需模块
 from rich import print as print

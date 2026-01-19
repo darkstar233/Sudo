@@ -1,3 +1,5 @@
+# 原数独求解程序
+
 # 导入所需模块
 import copy
 from rich import print as print

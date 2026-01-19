@@ -1,3 +1,5 @@
+# rich模块测试文件
+
 from rich import print
 print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:")
 from rich.console import Console
