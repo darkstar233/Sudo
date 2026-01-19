@@ -15,7 +15,6 @@ def standard():
     print("标准数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -23,21 +22,19 @@ def standard():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -46,7 +43,6 @@ def killer():
     print("杀手数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -54,21 +50,19 @@ def killer():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -77,7 +71,6 @@ def fourgrid():
     print("四宫数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -85,21 +78,19 @@ def fourgrid():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -108,7 +99,6 @@ def sixgrid():
     print("六宫数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -116,21 +106,19 @@ def sixgrid():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -139,7 +127,6 @@ def star():
     print("星星数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -147,21 +134,19 @@ def star():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
         
@@ -170,7 +155,6 @@ def circle():
     print("圆形数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -178,21 +162,19 @@ def circle():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -201,7 +183,6 @@ def zigzag():
     print("锯齿数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -209,21 +190,19 @@ def zigzag():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -232,7 +211,6 @@ def diagonal():
     print("对角线数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -240,21 +218,19 @@ def diagonal():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -263,7 +239,6 @@ def inequality():
     print("不等号数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -271,21 +246,19 @@ def inequality():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
 
@@ -294,7 +267,6 @@ def skyscraper():
     print("摩天楼数独")
     loop_control = True
     while loop_control:
-        loop_control = False
 
         tool.clear_screen()
 
@@ -302,20 +274,18 @@ def skyscraper():
         option=input("\n请输入选项：")
         match option:
             case "1":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "2":
-                loop_control = True
                 print("暂时还么有")
                 tool.delay(1)
 
             case "quit" | "exit" | "退出":
+                loop_control = False
                 print("退出程序!!!")
                 tool.delay(1)
                 
             case _:
-                loop_control = True
                 print("输入错误，请重新输入选项!!!")
                 tool.delay(1)
